@@ -20,6 +20,9 @@ Run the dependencies playbook to install all dependencies needed for Stow
 ```
 ~$ ansible-playbook dependencies.yml -u ubuntu
 ```
+### Add Project
+Set up a cronjob to periodically pull the latest changes from your git repo.
+
 ### Set up Nginx
 ```
 ~$ ansible-playbook nginx.yml -u ubuntu
