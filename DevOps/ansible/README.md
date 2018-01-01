@@ -1,4 +1,4 @@
-# CI/CD Stow with Ansible
+# CI/CD - Ansible
 ## Getting Started
 
 ## Requirements
