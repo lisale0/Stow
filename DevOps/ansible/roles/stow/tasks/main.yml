@@ -1,0 +1,16 @@
+---
+# tasks file for stow
+
+
+- name: Copying the upstart file
+  copy:
+    src: wellness.conf
+    dest: /etc/init/wellness.conf
+    owner: ubuntu
+    group: ubuntu
+    mode: 0644
+
+- name: Starting the Stow node service
+  service:
+    name: wellness
+    state: started

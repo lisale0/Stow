@@ -16,7 +16,7 @@
     - Reload Nginx
 
 - name: Add SFH Site Config
-  template: src=localhost.j2 dest=/etc/nginx/sites-available/{{ domain }} owner=ubuntu group=ubuntu
+  template: src=nginx dest=/etc/nginx/sites-available/{{ domain }} owner=ubuntu group=ubuntu
 
 - name: Enable SFH Site Config
   file: src=/etc/nginx/sites-available/{{ domain }} dest=/etc/nginx/sites-enabled/{{ domain }} state=link

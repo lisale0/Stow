@@ -1,0 +1,20 @@
+---
+- hosts: webservers
+  sudo: yes
+  tasks:
+    - name: Install packages
+      apt: name={{ item }} update_cache=yes state=latest
+      with_items:
+        - git
+        - ansible
+        - python3-pip
+
+    - name: Setup Python Libraries
+      pip: name={{ item }} executable=pip3
+      with_items:
+        - gunicorn
+        - pymysql
+        - flask
+        - flask-cors
+        - passlib
+        - pymysql

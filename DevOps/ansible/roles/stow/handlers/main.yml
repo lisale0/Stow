@@ -1,0 +1,7 @@
+---
+# handlers file for stow
+
+- name: restart stow
+  service:
+    name: stow
+    state: restarted
