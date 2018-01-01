@@ -25,8 +25,12 @@ Run the dependencies playbook to install all dependencies needed for Stow
 ~$ ansible-playbook nginx.yml -u ubuntu
 ```
 
-#### Configure wellness.conf
-Configure the environmental variables located at /roles/stow/files/wellness.conf
+### Configure wellness.conf
+Configure the environmental variables located at /roles/stow/files/wellness.conf and then run the following command:
+
+```
+~$ ansible-playbook stow.yml -u ubuntu
+```
 
 
 ### Resources
