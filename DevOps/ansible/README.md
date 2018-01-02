@@ -1,4 +1,4 @@
-# CI/CD - Ansible
+# Ansible
 ## Getting Started
 
 ## Requirements
