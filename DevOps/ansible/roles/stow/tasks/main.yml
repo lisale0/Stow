@@ -1,6 +1,12 @@
 ---
 # tasks file for stow
 
+- git:
+    repo: 'https://github.com/lisale0/Stow.git'
+    dest: /home/ubuntu/Stow
+    update: yes
+    force: yes
+    depth: 1
 
 - name: Copying the upstart file
   copy:
