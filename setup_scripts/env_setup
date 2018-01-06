@@ -1,5 +1,6 @@
 #!/usr/bin/env bash
 # setup for connection to mysql db and for wellness api startup
+# this is for dev environment
 # FILE MUST BE SOURCED
 
 export WELLNESS_MYSQL_USER="wellness_dev"
