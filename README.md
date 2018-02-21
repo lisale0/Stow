@@ -1,5 +1,5 @@
-# Stow
-People obtain draw conclusions about their health prematurely when symptoms are noticed.  Stow helps users and patients stow their positive and negative experiences about their health, these experiences will be displayed back to the user in a daily, weekly, or monthly basis on a bubble graph.  The bubble graph is not displayed on a x/y axis to avoid biases and drawing conclusions for the user.  
+# BugCal
+
 
 ## Getting Started
 
